@@ -1,0 +1,16 @@
+.carousel-inner {
+  background-image: url(cover/cover-1.png);
+  background-position: center;
+  background-size: cover;
+}
+.info {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.info h1 {
+  padding-top: 20px;
+}
+.info button {
+  padding-top: 10px;
+}
