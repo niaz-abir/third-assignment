@@ -3,6 +3,19 @@
   background-position: center;
   background-size: cover;
 }
+.carousel-inner::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+.carousel-inner * {
+  position: relative;
+  z-index: 10;
+}
+
 .info {
   text-align: center;
   padding-top: 150px;
@@ -20,10 +33,14 @@
 .course-info {
   margin-top: 20px;
 }
-.inst-info {
-  margin-top: 70px;
-  padding-top: 70px;
-}
+
 .institute {
   margin-top: 50px;
+}
+.accordion {
+  width: 60%;
+  margin: 0 auto;
+}
+.lk {
+  margin-left: 10px;
 }
